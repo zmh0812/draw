@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="keywords" content="抽签">
+    <meta name="description" content="课堂抽签系统">
+    <meta charset="UTF-8">
+    <title>课堂抽签系统</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/draw.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>课堂抽签系统</h1>
+    </header>
+    <section>
+        <div class="blocks">
+            <div class="block1">
+                <ul class="tab1">
+                    <li class="d undrawed">2017000011</li>
+                    <li class="d undrawed">2017000014</li>
+                    <li class="d undrawed" style="border-bottom: none;">2017000007</li>                   
+                    <li class="d drawed">
+                        <!--<span class="l_arrow"></span>-->
+                        2017000013
+                        <!--<span class="r_arrow"></span>-->
+                    </li>
+                    <li class="d undrawed">2017000017</li>
+                    <li class="d undrawed">2017000020</li>
+                    <li class="d undrawed" style="border-bottom: none;">2017000030</li>
+                </ul>
+            </div>
+            <span class="icon"></span>
+            <div class="block2">
+                <p id="show"></p>
+            </div>
+            <input type="button" value="开始抽签" class="btn" onclick="start()">
+        </div>
+    </section>
+</body>
+
+</html>

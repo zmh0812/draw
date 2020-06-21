@@ -1,0 +1,88 @@
+body{
+    background: url(../images/bg.png) repeat;
+}
+h1{
+    color: aliceblue;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.blocks{
+    width: 60%;
+    height: 366px;
+    min-width: 548px;
+    margin-left: 20%;
+    position: relative;
+}
+/*抽签框样式*/
+.block1{
+    width: 220px;
+    height: 366px;
+    box-sizing: border-box;
+    border: 1px #84c5d3 solid;
+    border-radius: 5%;
+    display: inline-block;  
+}
+.block1 ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.block1 ul li{
+    text-align: center;
+    color: white;
+}
+.undrawed{
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 0.5px #424259 solid;
+    font-size: 20px;
+}
+.drawed{
+    height: 60px;
+    line-height: 60px;
+    border-top: 2px #a1f2fc solid;
+    border-bottom: 2px #a1f2fc solid;
+    font-weight: 900;
+    font-size: 30px;
+}
+/*显示框样式*/
+.icon{
+    background: url(../images/person.png) no-repeat;
+    display: block;
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: 100px;
+    left: 270px;
+}
+.block2{
+    width: 38%;
+    height: 50px;
+    box-sizing: border-box;
+    border: 1px #84c5d3 solid;
+    border-radius: 20%;
+    display: inline-block;
+    position: absolute;
+    top: 100px;
+    left: 328px;
+}
+p{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 20px;
+    line-height: 50px;
+    text-indent: 10px;
+}
+
+.btn{
+    width: 10%;
+    height: 50px;
+    min-width: 70px;
+    margin-left: 15%;
+    position: absolute;
+    top: 200px;
+    left: 320px;
+}
